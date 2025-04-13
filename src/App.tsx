@@ -20,7 +20,7 @@ const ITEM_LIST = [
 
 function App() {
   const sound = new Howl({
-    src: ['/song.mp3'],
+    src: ['/song.MP3'],
     volume: 0.05,
   })
 
