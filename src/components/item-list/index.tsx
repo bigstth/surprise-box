@@ -1,8 +1,10 @@
 import { motion } from 'motion/react'
+
 interface Item {
   name: string
   src: string
 }
+
 const ItemList = ({ items }: { items: Item[] }) => {
   return (
     <>
