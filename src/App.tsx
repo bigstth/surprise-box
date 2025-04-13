@@ -46,7 +46,7 @@ function App() {
           <img
             src={BOX_IMG}
             alt="Unbox"
-            className={`w-full xl:max-w-[500px] rounded-xl ${isActive ? 'filter brightness-0 invert' : ''} ${isActive ? 'transform transition-transform duration-500 delay-[1000ms] xl:scale-150 max-lg:scale-0' : ''}`}
+            className={`w-full md:max-w-[500px] rounded-xl ${isActive ? 'filter brightness-0 invert' : ''} ${isActive ? 'transform transition-transform duration-500 delay-[1000ms] xl:scale-150 max-lg:scale-0' : ''}`}
           />
         </motion.div>
 
